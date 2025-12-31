@@ -3,13 +3,13 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA2KQZOqi5mas7shm2v_bY_jbG3R13zqFw",
-  authDomain: "unibic-a3778.firebaseapp.com",
-  projectId: "unibic-a3778",
-  storageBucket: "unibic-a3778.firebasestorage.app",
-  messagingSenderId: "69501495624",
-  appId: "1:69501495624:web:d4e826e33e569773f72b7d",
-  measurementId: "G-Q777MGSBGQ"
+  apiKey: "AIzaSyCrmMPM9St8fTkH4NmeYEIkuQ6RkjJBeu8",
+  authDomain: "unibic-trust.firebaseapp.com",
+  projectId: "unibic-trust",
+  storageBucket: "unibic-trust.firebasestorage.app",
+  messagingSenderId: "681799962148",
+  appId: "1:681799962148:web:0b1b7e1d8b8e376a0d92b1",
+  measurementId: "G-C8CZCJGY7T"
 };
 
 const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
